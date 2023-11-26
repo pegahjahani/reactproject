@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "mountains",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "url": "https://web-images.pixpa.com/L5U3yIZEhRuJ7OULzTvrhqaHdavmEld4e-25TYZvKQM/rs:fit:800:0/q:75/czM6Ly9waXhwYS10ZXN0L2NvbS9sYXJnZS8xMjQyNTYvMTY2ODk2NTAwNy05NTk3OTgtcGFub3JhbWEtMS1zdXItMS5qcGc="
+    },
+    {
+      "id": 2,
+      "title": "winter",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "url": "https://web-images.pixpa.com/bpEe5W5m2ba2vBedsn_-WLKHAFqYj865pK6I4CKYSgg/rs:fit:800:0/q:75/czM6Ly9waXhwYS10ZXN0L2NvbS9sYXJnZS8xMjQyNTYvMTYyMjI5MzQ5NS02NTgxMTEtdGhlLWxvc3QtYmFybi1pbi10aGUtc25vdy0xLXN1ci0xLmpwZw=="
+    },
+    {
+      "id": 3,
+      "title": "nature",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "url": "https://web-images.pixpa.com/T2OCbLUCw0Cl1C3wW9qonYX0MvOmOOL-IOBEf6nA-40/rs:fit:800:0/q:75/czM6Ly9waXhwYS10ZXN0L2NvbS9sYXJnZS8xMjQyNTYvMTYyMjI5MjA4MC0xODUxMjgta3Jrb25vc2UtNjAwLmpwZw=="
+    },
+    {
+      "id": 4,
+      "title": "summer",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "url": "https://web-images.pixpa.com/bpEe5W5m2ba2vBedsn_-WLKHAFqYj865pK6I4CKYSgg/rs:fit:800:0/q:75/czM6Ly9waXhwYS10ZXN0L2NvbS9sYXJnZS8xMjQyNTYvMTYyMjI5MzQ5NS02NTgxMTEtdGhlLWxvc3QtYmFybi1pbi10aGUtc25vdy0xLXN1ci0xLmpwZw=="
+    },
+    {
+      "id": 5,
+      "title": "jungle",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "url": "https://web-images.pixpa.com/L7A4dd4OrK-QrpFDk7QGdmjUGjsbzNeeaku77S_Zyu0/rs:fit:800:0/q:75/czM6Ly9waXhwYS10ZXN0L2NvbS9sYXJnZS8xMjQyNTYvMTYyMjI5Mjc5Mi0xMzUyODMtdGFibGUtZGFucy1sYS1icnVtZS5qcGc="
+    },
+    {
+      "id": 6,
+      "title": "sky",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "url": "https://web-images.pixpa.com/LtDeTG2kfeX8Acl6WmvJsnvb6XU_qGB4ZJ5PYI-ylnc/rs:fit:800:0/q:75/czM6Ly9waXhwYS10ZXN0L2NvbS9sYXJnZS8xMjQyNTYvMTYxODMwNDEyMC03MzY3OTEtYmFydW5rYS12b3NnZXMtMi5qcGc="
+    }
+  ],
+  "portraits": [
+    {
+      "id": 1,
+      "title": "Emily blunt",
+      "url": "https://i.pinimg.com/236x/1b/29/dd/1b29ddd230b90d72e758607deb3ed632.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Ryan gosling",
+      "url": "https://i.pinimg.com/236x/c7/b9/76/c7b976ef7587e9ed1ee32a5a4fb1271f.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Anthony hopkins",
+      "url": "https://i.pinimg.com/236x/6b/51/ff/6b51ff9424698c7377bd8c1e317ad7ac.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Hugh jackman",
+      "url": "https://i.pinimg.com/236x/91/31/44/9131440612e59272ca2fc2421873dca8.jpg"
+    }
+  ],
+  "fineArt": [
+    {
+      "id": 1,
+      "photographer": "pegah jahani",
+      "url": "https://images.unsplash.com/photo-1610621062045-ef5f7201bb3f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmluZSUyMGFydCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fHww"
+    },
+    {
+      "id": 2,
+      "photographer": "pegah jahani",
+      "url": "https://images.unsplash.com/photo-1621171152288-cff16cd4d671?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmluZSUyMGFydCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fHww"
+    },
+    {
+      "id": 3,
+      "photographer": "pegah jahani",
+      "url": "https://plus.unsplash.com/premium_photo-1664303371069-9ab642bdfa54?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmluZSUyMGFydCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fHww"
+    },
+    {
+      "id": 4,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/55/31/e0/5531e06927d9cb4d2c6c31e5906e4635.jpg"
+    },
+    {
+      "id": 5,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/19/a6/a6/19a6a6d02559c28dc4b0e61b4257a0da.jpg"
+    },
+    {
+      "id": 6,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/a6/25/50/a62550e8be5cbfb00d9e1ed3c889ea58.jpg"
+    },
+    {
+      "id": 7,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/ad/33/1a/ad331a5cc471aacd137cc08dbbda3086.jpg"
+    },
+    {
+      "id": 8,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/b7/0b/47/b70b470244c527c80791eb468c9cafa2.jpg"
+    },
+    {
+      "id": 9,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/02/4a/9b/024a9b82f161dde85ff7253de0626dd8.jpg"
+    },
+    {
+      "id": 10,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/30/55/f9/3055f986cd0d3a5aef225f6212766e56.jpg"
+    },
+    {
+      "id": 11,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/55/3b/2f/553b2fa4ce37e076852f3b52356242db.jpg"
+    },
+    {
+      "id": 12,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/2d/22/24/2d2224ca81729bc98af351e8ac92dfe7.jpg"
+    },
+    {
+      "id": 13,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/45/21/04/452104c0609e25397d57342bcf55e667.jpg"
+    },
+    {
+      "id": 14,
+      "photographer": "pegah jahani",
+      "url": "https://i.pinimg.com/236x/b5/d4/f7/b5d4f74710243efa8a2992aee569a5ee.jpg"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "fullName": "",
+      "email": "",
+      "phoneNumber": ""
+    },
+    {
+      "fullName": "pegah",
+      "email": "jahani@gmail.com",
+      "phoneNumber": "09902204658",
+      "id": 2
+    }
+  ]
+}
