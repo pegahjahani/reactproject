@@ -18,7 +18,7 @@ function App() {
       setList(res.data)
   }
   useEffect(()=>{
-      getData()
+    getData()
   }, [])
   return (
     <div className="App col-12 ">

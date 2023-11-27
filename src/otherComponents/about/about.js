@@ -29,17 +29,7 @@ const About = ()=>{
                     React / React Router / css / Json Server
                 </p>
             </div>
-            <div className="col-12  d-flex flex-wrap justify-content-center align-items-center cotactMe">
-                <p className="col-10">
-                  my number phone : 09902204658
-                </p>
-                <p className="col-10">
-                  my email : pegahjahani08@gmail.com
-                </p>
-                <p className="col-10">
-                  my github : https://github.com/pegahjahani
-                </p>
-            </div>
+          
             <ImageGallery items={images} className="col-6 gallery" />
         </div>
     )

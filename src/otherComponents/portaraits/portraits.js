@@ -9,7 +9,7 @@ const Portraits = () => {
         setPortraits(res.data)
     }
     useEffect(() => {
-        getList()
+         getList()
     }, [])
     return (
         <div className="col-12 portraits">

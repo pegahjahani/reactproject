@@ -6,6 +6,7 @@ import Portraits from "../../otherComponents/portaraits/portraits"
 import FineArt from "../../otherComponents/fineArt/fineArt"
 import About from "../../otherComponents/about/about"
 import Contact from "../../otherComponents/contact/contact"
+import { useEffect } from 'react'
 
 
 
@@ -13,7 +14,14 @@ import Contact from "../../otherComponents/contact/contact"
 
 const Menu = ({listImg}) => {
     const [show, setShow] = useState(false)
+    const [click, setClick] = useState(false)
+    const clickMenu = ()=>{
+        console.log(document.getElementsByTagName('li') );
+    }
     
+    useEffect(()=>{
+        clickMenu()
+    } , [click])
     return (
         <div>
         <div className=" d-flex flex-nowrap col-12  ">
@@ -29,11 +37,11 @@ const Menu = ({listImg}) => {
                     <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
                 </svg>
                 </div> 
-                    <li  onClick={() => { setShow(false) }} ><Link to="">RealState</Link></li >
-                    <li  onClick={() => { setShow(false) }} ><Link to="/portraits">Portraits</Link></li>
-                    <li  onClick={() => { setShow(false) }} ><Link to="/fineArt">FineArt</Link></li>
-                    <li  onClick={() => { setShow(false) }} ><Link to="/about">About</Link></li>
-                    <li  onClick={() => { setShow(false) }} ><Link to="/contact">Contact</Link></li>
+                    <li  onClick={() => {setShow(false) ; setClick(true)}} ><Link to="">RealState</Link></li >
+                    <li  onClick={() => {setShow(false) ; setClick(true)}} ><Link to="/portraits">Portraits</Link></li>
+                    <li  onClick={() => {setShow(false) ; setClick(true)}} ><Link to="/fineArt">FineArt</Link></li>
+                    <li  onClick={() => {setShow(false) ; setClick(true)}} ><Link to="/about">About</Link></li>
+                    <li  onClick={() => {setShow(false) ; setClick(true)}} ><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
       
@@ -42,9 +50,24 @@ const Menu = ({listImg}) => {
         :
                 <div className="col-12 d-flex flex-nowrap justify-content-evenly  flex-md-wrap header">
                     <div className="col-10 col-md-12 ">
-                        <h2 className="col-12 title">
-                            Marc Berlin Photography
+                        <h2 className="col-12 title nameWeb">
+                            <span>p</span>
+                            <span>h</span>
+                            <span>o</span>
+                            <span>t</span>
+                            <span>o</span>
+                            <span>g</span>
+                            <span>r</span>
+                            <span>a</span>
+                            <span>p</span>
+                            <span>h</span>
+                            <span>y</span>
+                            <span>w</span>
+                            <span>e</span>
+                            <span>b</span>
+                            {/* <span>create by : pegah jahani</span> */}
                         </h2>
+                        
                     </div>
                     <div className="col-12  d-none d-md-flex">
                   

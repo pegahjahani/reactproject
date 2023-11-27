@@ -67,24 +67,23 @@ const Contact = () => {
     }, [status])
 
     return (
-        <div id="contact" className=" col-12 components d-flex justify-content-center align-items-center flex-column  contact">
-
-            <div className="alertBox">
-                {
-                    status == 'success' ?
-                        <div className="alertText px-2">
-                            <p>Data is saved sucessfully !</p>
-                        </div>
-                        : status == 'error' ?
-                            <div className="alertText px-2">
-                                <p>Data is not saved  !</p>
-                            </div>
-                            : null
-                }
-
-            </div>
+        <div id="contact" className=" col-12 components d-flex justify-content-center align-items-center flex-column">
+           
+            <div className="col-12 cotactMe">
             <h1 className="mb-5 titleContact">Contact me</h1>
+                
+                <p className="col-10">
+                    my number phone : 09902204658
+                </p>
+                <p className="col-10">
+                    my email : pegahjahani08@gmail.com
+                </p>
+                <p className="col-10">
+                    my github : https://github.com/pegahjahani
+                </p>
+            </div>
             <form className="col-10 " id="contactForm" onSubmit={submitForm} >
+                <h4 className="formTitle"> your information ...</h4>
                 <div className="col-12 ">
                     <input className="col-6 d-none" placeholder="id" />
                 </div>
@@ -107,7 +106,20 @@ const Contact = () => {
 
                 <div className="col-6 d-flex justify-content-start align-items-center"><button className="sendBtn">send</button></div>
             </form>
+            <div className="alertBox">
+                {
+                    status == 'success' ?
+                        <div className="successAlert">
+                            <p>Data is saved sucessfully !</p>
+                        </div>
+                        : status == 'error' ?
+                            <div className="errorAlert">
+                                <p>Data is not saved  !</p>
+                            </div>
+                            : null
+                }
 
+            </div>
         </div>
     )
 }
