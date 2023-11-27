@@ -67,7 +67,7 @@ const Contact = () => {
     }, [status])
 
     return (
-        <div className=" col-12 components d-flex justify-content-center align-items-center flex-column border contact">
+        <div id="contact" className=" col-12 components d-flex justify-content-center align-items-center flex-column  contact">
 
             <div className="alertBox">
                 {
@@ -83,23 +83,23 @@ const Contact = () => {
                 }
 
             </div>
-            <h1 className="mb-5">Contact me</h1>
-            <form className="col-10 border" id="contactForm" onSubmit={submitForm} >
-                <div className="col-12 border">
+            <h1 className="mb-5 titleContact">Contact me</h1>
+            <form className="col-10 " id="contactForm" onSubmit={submitForm} >
+                <div className="col-12 ">
                     <input className="col-6 d-none" placeholder="id" />
                 </div>
                 <div className="col-8 d-flex justify-content-start">  <label>fullName : </label> </div>
-                <div className="col-12 border">
+                <div className="col-12 ">
                     <input className="col-6" placeholder="fullName" value={data.fullName} onChange={(e) => setData((prevState) => ({ ...prevState, fullName: e.target.value }))} />
                     {<p className="errorContact">{validation.fullName}</p>}
                 </div>
                 <div className="col-8 d-flex justify-content-start"> <label>email : </label> </div>
-                <div className="col-12 border">
+                <div className="col-12 ">
                     <input className="col-6" placeholder="email" value={data.email} onChange={(e) => setData((prevState) => ({ ...prevState, email: e.target.value }))} />
                     {<p className="errorContact">{validation.email}</p>}
                 </div>
                 <div className="col-8 d-flex justify-content-start"><label>phoneNumber : </label></div>
-                <div className="col-12 border">
+                <div className="col-12 ">
                     <input className="col-6" placeholder="phoneNumber" value={data.phoneNumber} onChange={(e) => setData((prevState) => ({ ...prevState, phoneNumber: e.target.value }))} />
                     {<p className="errorContact">{validation.phoneNumber} </p>}
                 </div>

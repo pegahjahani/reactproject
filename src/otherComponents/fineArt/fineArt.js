@@ -39,8 +39,8 @@ const FineArt = () => {
               className="modal show"
               style={{ display: 'block', position: 'initial' }}
             >
-              <Modal.Dialog>
-                <Modal.Header closeButton onClick={() => { setShow(false) }}>
+              <Modal.Dialog >
+                <Modal.Header className="headModal" closeButton onClick={() => { setShow(false) }}>
                   <Modal.Title>photographer : {image.photographer}</Modal.Title>
                 </Modal.Header>
         
