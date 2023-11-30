@@ -79,7 +79,7 @@ li:hover::after {
   /* border: 1px solid tomato; */
   position: fixed;
   top: 0;
-  background-color: #6D597A;
+  background-color: #6d597ad6;
   z-index: 999;
   padding: 20px 0 20px 0;
 }
@@ -89,9 +89,10 @@ li:hover::after {
   font-family: 'Nunito', sans-serif;
   font-size: 3rem;
   color: transparent;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
+  border: 1px solid red;
 }
-.nameWeb span{
+.nameWeb>span{
   text-shadow:
     0 0 2px rgba(204, 208, 212,0.9),
     0 15px 25px rgba(0, 0, 0, 0.3),
@@ -183,7 +184,22 @@ li:hover::after {
 
 
 }
-
+/* *****realState*** */
+.modalBox{
+  /* border: 3px solid #372146; */
+  border-radius: 5px;
+}
+.modalHeader{
+  background-color: #6D597A;
+  color: #EAAC8B;
+}
+.modalBody{
+  border-radius: 5px;
+  background: rgb(53, 80, 112);
+  background: linear-gradient(90deg, rgba(53, 80, 112, 1) 0%, rgba(181, 101, 118, 1) 35%, rgba(234, 172, 139, 1) 100%);
+  color: white;
+  padding: 10px;
+}
 .realState {
   width: 100%;
   min-height: 100vh;
@@ -193,7 +209,8 @@ li:hover::after {
   gap: 10px;
   flex-wrap: wrap;
   background-color: #EAAC8B;
-  padding-top: 50px;
+  padding-top: 20px;
+  margin-top: 90px;
 
   /* border-top: 2px solid black; */
 }
@@ -249,10 +266,11 @@ li:hover::after {
   flex-direction: column;
   gap: 10px !important;
   background-color: white !important;
+  padding-top: 20px;
+  margin-top: 90px;
 }
 
 .portraits>.portraitBox {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   border: 5px solid #B56576;
@@ -266,7 +284,7 @@ li:hover::after {
 
 .parentModal {
   padding-top: 50px !important;
-  margin-top: 40px;
+  margin-top: 50px;
   transition: 1s !important;
   /* background-color: #E56B6F; */
 }
@@ -282,10 +300,11 @@ li:hover::after {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 10px;
+  padding-top: 20px;
+  margin-top: 90px;
   background: rgb(53, 80, 112);
   background: linear-gradient(90deg, rgba(53, 80, 112, 1) 0%, rgba(181, 101, 118, 1) 35%, rgba(234, 172, 139, 1) 100%);
-  margin-top: 70px;
+ 
 }
 
 .picBox {
@@ -368,9 +387,10 @@ li:hover::after {
 
 /* ****about*** */
 .about {
-  background-color: #B56576;
-  padding: 50px;
-  padding-top: 75px;
+  background-color: #EAAC8B;
+  padding-top: 20px;
+  margin-top: 90px;
+  padding-left: 100px;padding-right: 100px;
 }
 
 .about>.title {
@@ -418,15 +438,13 @@ h3 {
 }
 
 .cotactMe {
-  margin-top: 30px;
+  padding-top: 20px;
+  margin-top: 90px;
   font-size: 20px;
   font-weight: bolder;
   text-shadow: 2px 2px 8px #B56576;
   color: #E56B6F;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
+  
 
 
 }

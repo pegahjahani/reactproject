@@ -20,13 +20,13 @@ const RealState = ({ listImg }) => {
               className="modal show"
               style={{ display: 'block', position: 'initial' }}
             >
-              <Modal.Dialog>
+              <Modal.Dialog className="modalBox">
                 <Modal.Header className="modalHeader" closeButton onClick={() => { setShowBody(false) }}>
                   <Modal.Title>{textBody.title}</Modal.Title>
                 </Modal.Header>
 
                 <Modal.Body>
-                  <div key={textBody.id} className="col-12" > {textBody.body} </div>
+                  <div key={textBody.id} className="col-12 modalBody" > {textBody.body} </div>
 
                 </Modal.Body>
 
