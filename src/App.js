@@ -1,4 +1,5 @@
  import './App.css';
+ import './localStyle.css'
  import Menu from '../src/headPage/menu/menu'
 //  import {BrowserRouter} from 'react-router-dom'
 import { useEffect, useState } from "react"

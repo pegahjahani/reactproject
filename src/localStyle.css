@@ -1,1 +1,24 @@
- 
+ @media screen and (min-width: 576px) {
+    .realState , .portraits , .fineArts , .about , .cotactMe{
+        padding-top: 60px;
+        margin-top: 49px ;
+    }
+
+ }
+
+ @media screen and (max-width: 576px) {
+    .realState , .portraits , .fineArts  , .cotactMe{
+        padding-top: 70px;
+        margin-top: 49px ;
+    }
+     .about{
+        padding-top: 70px;
+        margin-top: 10px ;
+     }
+ }
+ @media screen and (min-width: 768px) {
+    .realState , .portraits , .fineArts , .about , .cotactMe{
+        padding-top: 20px;
+        margin-top: 90px ;
+    }
+ }

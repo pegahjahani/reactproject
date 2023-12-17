@@ -12,6 +12,10 @@ const images = [
       original: "https://images.unsplash.com/photo-1613068687893-5e85b4638b56?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D",
       thumbnail: "https://images.unsplash.com/photo-1613068687893-5e85b4638b56?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D",
     },
+    {
+      original: "https://media.istockphoto.com/id/1401307605/photo/rear-of-female-web-expert-typing-on-computer-looking-at-monitors-while-sitting-indoors.webp?b=1&s=170667a&w=0&k=20&c=ZH6pHvoSzdP0PvCr2PVfJY9YdhGIWFP8zLEweAG53tY=",
+      thumbnail: "https://media.istockphoto.com/id/1401307605/photo/rear-of-female-web-expert-typing-on-computer-looking-at-monitors-while-sitting-indoors.webp?b=1&s=170667a&w=0&k=20&c=ZH6pHvoSzdP0PvCr2PVfJY9YdhGIWFP8zLEweAG53tY=",
+    },
   ];
 const About = ()=>{
     return(
@@ -30,7 +34,9 @@ const About = ()=>{
                 </p>
             </div>
           
-            <ImageGallery items={images} className="col-6 gallery" />
+           <div className="gallery col-12 col-md-6">
+           <ImageGallery items={images} className="col-6" />
+           </div>
         </div>
     )
 }
