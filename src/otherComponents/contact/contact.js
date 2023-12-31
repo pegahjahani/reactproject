@@ -9,8 +9,6 @@ const Contact = () => {
     const [validation, setValidation] = useState({ fullName: '', email: '', phoneNumber: '' })
     const [status, setStatus] = useState('')
 
-    // console.log('validation', validation);
-
     const checkValidation = () => {
         const emailCond = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i;
         const condPhone = /(0|\+98)?([ ]|-|[()]){0,2}9[1|2|3|4|9|3]([ ]|-|[()]){0,2}(?:[0-9]([ ]|-|[()]){0,2}){8}/ig;
