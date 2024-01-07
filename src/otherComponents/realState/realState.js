@@ -12,7 +12,7 @@ const RealState = ({ listImg }) => {
 
   }
   return (
-    <div className=" components ">
+    <div className="components">
       {
         showBody ?
           <div className="parentModal p-4">
